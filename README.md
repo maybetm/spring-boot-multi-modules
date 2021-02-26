@@ -1,19 +1,19 @@
-##Spring boot multi modules project example 
+## Spring boot multi modules project example 
 
-##How to build?
+## How to build?
 Run `mvn package` in root directory.  
 В результате получается архив содержащий folder with dependency jars *(lib folder)* and _spring-boot-multi-modules.jar_ 
 
-##How to run?  
+## How to run?  
 Run `spring-boot-multi-modules.jar` in `application` module. 
 
-##What problem does this structure solve?
+## What problem does this structure solve?
 Comparing with packages structure, multi modules project very simple keep parallel develop.
 We have more possibilities for 
 По сравнению с пакетной структурой, в многомодульном проекте намного проще вести параллельную разработку.  
 Появляется больше возможностей для переиспользования, тестирования и наращивания функционала.  
 
-##Application structure
+## Application structure
 - `app` - directories for configuration files, dockerfile, shell, and any files for develop environment.
 - `app/assembly` - configurer files for build project.
 - `app/bin` - shell scrips for start application.
