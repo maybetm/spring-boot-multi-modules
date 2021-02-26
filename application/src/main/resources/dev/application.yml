@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    url: jdbc:postgresql://localhost:5432/spring-multi-modules-db?autoReconnect=true
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+    continue-on-error: true
+  jpa:
+    open-in-view: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: none
+    show-sql: true
