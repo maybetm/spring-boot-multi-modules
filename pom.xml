@@ -11,8 +11,12 @@
 
 	<properties>
 		<java.version>8</java.version>
-		<maven.compiler.source>${java.version}</maven.compiler.source>
-		<maven.compiler.target>${java.version}</maven.compiler.target>
+    <default-encoding>UTF-8</default-encoding>
+
+    <project.build.sourceEncoding>${default-encoding}</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>${default-encoding}</project.reporting.outputEncoding>
+    <maven.compiler.source>${java.version}</maven.compiler.source>
+    <maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
 
 	<modules>
