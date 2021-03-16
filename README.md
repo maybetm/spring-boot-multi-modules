@@ -83,7 +83,7 @@ On result, we have archive, includes a folder with dependency  jars *(lib folder
 ## How to run?  
 Run `spring-boot-multi-modules.jar` in `application` module. 
 
->**Example:**  
+**Example:**  
 >java -jar spring-boot-multi-modules.jar
 ***
 
