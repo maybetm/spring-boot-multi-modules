@@ -98,5 +98,5 @@ We have more possibilities for reusing, testing and supporting
 - `application` - This is main project module. Responsible for assembling the configuration and run the application`(maven profiles, application.yml and etc)`.
 - `application-bom` - This module is responsible for managing versions of project modules.
 - `data-transport` - Communication with other applications over rest, rpc and other`(Get data over feign client or sring rest template and etc)`.
-- `db-service` - Persistence layer`(persistence, spring-data-jpa, spring jdbc, migration pligins, migration sql scripts and etc)`.
+- `db-service` - Persistence layer`(persistence, spring-data-jpa, spring jdbc, migration plugins, migration sql scripts and etc)`.
 - `web-api` - Application api`(Swager, RestController, WebSocket and etc)`.
